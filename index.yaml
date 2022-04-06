@@ -3,9 +3,9 @@ entries:
   strimzi-kafka-operator:
   - apiVersion: v2
     appVersion: 0.28.0
-    created: "2022-04-01T15:34:51.660200993-07:00"
+    created: "2022-04-06T16:36:20.789768693-07:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
-    digest: a867f3a94e5e88025b3948607189d8a38abba72c07b3e1cc09970c7f37f94d84
+    digest: 2e4801c994f33d75e16e890f65665eff1cb8e9ad5e93329a8336a2d5267f728f
     home: https://strimzi.io/
     icon: https://raw.githubusercontent.com/strimzi/strimzi-kafka-operator/main/documentation/logo/strimzi_logo.png
     keywords:
@@ -31,7 +31,7 @@ entries:
     version: 0.28.0
   - apiVersion: v2
     appVersion: 0.26.0
-    created: "2022-04-01T15:34:51.656972839-07:00"
+    created: "2022-04-06T16:36:20.759077617-07:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
     digest: fb06c392d162015bc46dafaf5cc601d7a1a28d032d4137ba232ea319e457d128
     home: https://strimzi.io/
@@ -57,4 +57,15 @@ entries:
     urls:
     - strimzi-kafka-operator-helm-3-chart-0.26.0.tgz
     version: 0.26.0
-generated: "2022-04-01T15:34:51.651891023-07:00"
+  strimzi-kafka-pubsub-connector:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-04-06T16:36:20.790269421-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 575fe325890782625ca1d584ab9ab157bd51f5906d481472cd18aaabf0cd5e89
+    name: strimzi-kafka-pubsub-connector
+    type: application
+    urls:
+    - strimzi-kafka-pubsub-connector-helm-3-chart-0.28.0.tgz
+    version: 0.1.0
+generated: "2022-04-06T16:36:20.732515199-07:00"
